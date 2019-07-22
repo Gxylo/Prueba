@@ -36,6 +36,9 @@ class HomeVC: UIViewController {
         self.user?.getDetails().continueOnSuccessWith { (task) -> AnyObject? in
             DispatchQueue.main.async(execute: {
                 self.response = task.result
+                
+                self.showAlert(name: self.response?.username ?? "Amigo")
+                
             })
             
             return nil
@@ -45,6 +48,20 @@ class HomeVC: UIViewController {
         
     }
 
+    func showAlert(name: String)  {
+        
+        let alert = UIAlertController(title: "¡Hola \(name)!", message: "Bienvenido a la aplicación de prueba...", preferredStyle: UIAlertController.Style.alert)
+        
+        let okAction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default) { (action) in
+            
+        }
+        
+        alert.addAction(okAction)
+        
+        self.present(alert, animated: true) {
+            
+        }
+    }
 
     /*
     // MARK: - Navigation
