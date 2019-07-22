@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AWSAuthCore (2.6.35):
+    - AWSCore (= 2.6.35)
+  - AWSCognitoIdentityProvider (2.6.35):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.35)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.35)
+  - AWSPinpoint (2.6.35):
+    - AWSCore (= 2.6.35)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AWSAuthCore (~> 2.6.1)
+  - AWSCognitoIdentityProvider (~> 2.6.0)
+  - AWSPinpoint
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSPinpoint
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AWSAuthCore: 386e045a341acebf2409425467e907ae1a45ed63
+  AWSCognitoIdentityProvider: 0a041bd229a105d73f3a4d7eb90f696f1b5bd422
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 2dab62ef2e5ca5d8c72c6cbdb3a6ea1532c27c2b
+  AWSPinpoint: 269c600f74368deb045854f28aa45bce20820baa
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 4dc09efd02920541149d8c43bce254d6f21a4b5e
+
+COCOAPODS: 1.6.0
