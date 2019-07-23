@@ -20,7 +20,7 @@ let AWSCognitoUserPoolsSignInProviderKey = "UserPool"
 open class URLConstants{
 
     
-    let api = ""
+    let api = "https://5cc85cdb2dcd9d0014768e7c.mockapi.io"
     
     class var shared: URLConstants {
         struct Static {
@@ -29,9 +29,9 @@ open class URLConstants{
         return Static.instance
     }
     
-    @objc dynamic func getTransactions() -> String{
+    @objc dynamic func getOrders() -> String{
         
-        return ""
+        return "\(api)/orders"
     }
 
 }

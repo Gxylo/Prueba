@@ -17,6 +17,7 @@
 		2325574922E6355C00140750 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2325574822E6355C00140750 /* Overlay.swift */; };
 		2325574C22E6469E00140750 /* URLCostants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2325574B22E6469E00140750 /* URLCostants.swift */; };
 		2325574E22E64D1000140750 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2325574D22E64D1000140750 /* HomeVC.swift */; };
+		23FDB91922E7AE0C0039DE78 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FDB91822E7AE0C0039DE78 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		2325574822E6355C00140750 /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 		2325574B22E6469E00140750 /* URLCostants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLCostants.swift; sourceTree = "<group>"; };
 		2325574D22E64D1000140750 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		23FDB91822E7AE0C0039DE78 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		C407D2A2B09CA52181078BC2 /* Pods-Prueba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba.debug.xcconfig"; path = "Target Support Files/Pods-Prueba/Pods-Prueba.debug.xcconfig"; sourceTree = "<group>"; };
 		C687CAD5A1B18A7974BAA8B9 /* Pods_Prueba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prueba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B9DFD4A78E719480EBEB1E /* Pods-Prueba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba.release.xcconfig"; path = "Target Support Files/Pods-Prueba/Pods-Prueba.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		2325572F22E6168300140750 /* Prueba */ = {
 			isa = PBXGroup;
 			children = (
+				23FDB91722E7ADF40039DE78 /* Models */,
 				23FDB91422E6657D0039DE78 /* Controllers */,
 				2325574A22E6467A00140750 /* Constants */,
 				2325574422E632DC00140750 /* Utils */,
@@ -109,10 +112,35 @@
 		23FDB91422E6657D0039DE78 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2325574D22E64D1000140750 /* HomeVC.swift */,
-				2325574222E6303100140750 /* SignInVC.swift */,
+				23FDB91622E7AA670039DE78 /* Home */,
+				23FDB91522E7AA5E0039DE78 /* Ligin */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		23FDB91522E7AA5E0039DE78 /* Ligin */ = {
+			isa = PBXGroup;
+			children = (
+				2325574222E6303100140750 /* SignInVC.swift */,
+			);
+			name = Ligin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		23FDB91622E7AA670039DE78 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2325574D22E64D1000140750 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		23FDB91722E7ADF40039DE78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				23FDB91822E7AE0C0039DE78 /* Order.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		70E8DCDD179257F8A6DFCDA0 /* Pods */ = {
@@ -270,6 +298,7 @@
 				2325574E22E64D1000140750 /* HomeVC.swift in Sources */,
 				2325574622E6330300140750 /* Utils.swift in Sources */,
 				2325574C22E6469E00140750 /* URLCostants.swift in Sources */,
+				23FDB91922E7AE0C0039DE78 /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
