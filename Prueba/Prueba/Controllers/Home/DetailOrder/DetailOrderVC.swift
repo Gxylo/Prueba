@@ -40,6 +40,12 @@ class DetailOrderVC: UIViewController {
         
         
     }
+    
+    @IBAction func backToView(_ sender: Any) {
+        
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 
