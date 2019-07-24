@@ -287,6 +287,15 @@ class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let order = self.orderArray?[indexPath.row] as? Order
+        let detailOrderView = self.storyboard?.instantiateViewController(withIdentifier: "orderDatailView") as? DetailOrderVC
+        detailOrderView?.order = order
+        self.navigationController?.pushViewController(detailOrderView!, animated: true)
+        
+    }
 
     
     /*
