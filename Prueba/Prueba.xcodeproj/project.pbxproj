@@ -17,6 +17,7 @@
 		2325574922E6355C00140750 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2325574822E6355C00140750 /* Overlay.swift */; };
 		2325574C22E6469E00140750 /* URLCostants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2325574B22E6469E00140750 /* URLCostants.swift */; };
 		2325574E22E64D1000140750 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2325574D22E64D1000140750 /* HomeVC.swift */; };
+		23C1E9CA22E7E39400698A5B /* ScannQRVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C1E9C922E7E39300698A5B /* ScannQRVC.swift */; };
 		23FDB91922E7AE0C0039DE78 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FDB91822E7AE0C0039DE78 /* Order.swift */; };
 		23FDB91C22E7DB460039DE78 /* DetailOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FDB91B22E7DB460039DE78 /* DetailOrderVC.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		2325574822E6355C00140750 /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 		2325574B22E6469E00140750 /* URLCostants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLCostants.swift; sourceTree = "<group>"; };
 		2325574D22E64D1000140750 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		23C1E9C922E7E39300698A5B /* ScannQRVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannQRVC.swift; sourceTree = "<group>"; };
 		23FDB91822E7AE0C0039DE78 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		23FDB91B22E7DB460039DE78 /* DetailOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOrderVC.swift; sourceTree = "<group>"; };
 		C407D2A2B09CA52181078BC2 /* Pods-Prueba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba.debug.xcconfig"; path = "Target Support Files/Pods-Prueba/Pods-Prueba.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +113,14 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		23C1E9CB22E7E39B00698A5B /* QRScann */ = {
+			isa = PBXGroup;
+			children = (
+				23C1E9C922E7E39300698A5B /* ScannQRVC.swift */,
+			);
+			path = QRScann;
+			sourceTree = "<group>";
+		};
 		23FDB91422E6657D0039DE78 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +142,7 @@
 		23FDB91622E7AA670039DE78 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				23C1E9CB22E7E39B00698A5B /* QRScann */,
 				23FDB91A22E7DB200039DE78 /* DetailOrder */,
 				2325574D22E64D1000140750 /* HomeVC.swift */,
 			);
@@ -305,6 +316,7 @@
 			files = (
 				2325574322E6303100140750 /* SignInVC.swift in Sources */,
 				2325573122E6168300140750 /* AppDelegate.swift in Sources */,
+				23C1E9CA22E7E39400698A5B /* ScannQRVC.swift in Sources */,
 				2325574922E6355C00140750 /* Overlay.swift in Sources */,
 				2325574E22E64D1000140750 /* HomeVC.swift in Sources */,
 				2325574622E6330300140750 /* Utils.swift in Sources */,

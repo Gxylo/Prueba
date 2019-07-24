@@ -38,7 +38,10 @@ class DetailOrderVC: UIViewController {
 
     @IBAction func scannView(_ sender: Any) {
         
-        
+        let qrScannView = self.storyboard?.instantiateViewController(withIdentifier: "scannView") as? ScannQRVC
+        qrScannView?.order = self.order
+        self.navigationController?.pushViewController(qrScannView!, animated: true)
+
     }
     
     @IBAction func backToView(_ sender: Any) {
