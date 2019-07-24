@@ -42,7 +42,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="join" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo_sin_fondo" translatesAutoresizingMaskIntoConstraints="NO" id="epo-Sp-awv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgroundButton" translatesAutoresizingMaskIntoConstraints="NO" id="epo-Sp-awv">
                                 <rect key="frame" x="96" y="111" width="198" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -164,6 +164,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRR-Yh-7X1">
                                         <rect key="frame" x="0.0" y="0.0" width="154" height="60"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                        <connections>
+                                            <action selector="closeSession:" destination="wqt-0b-U8Y" eventType="touchUpInside" id="5AC-Tx-jNV"/>
+                                        </connections>
                                     </button>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WvK-Sp-O8y">
                                         <rect key="frame" x="311" y="16" width="49" height="31"/>
@@ -418,7 +421,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo_sin_fondo" width="16" height="16"/>
         <image name="backView" width="25" height="12"/>
         <image name="backgroundButton" width="415" height="140"/>
         <image name="captureCode" width="280" height="280"/>

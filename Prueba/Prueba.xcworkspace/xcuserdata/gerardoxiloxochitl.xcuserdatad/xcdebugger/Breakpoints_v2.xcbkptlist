@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Prueba/Controllers/Home/HomeVC.swift"
-            timestampString = "585623868.0686719"
+            timestampString = "585624360.767578"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "85"
@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Prueba/Controllers/Home/QRScann/ScannQRVC.swift"
-            timestampString = "585623868.06874"
+            timestampString = "585624360.7680089"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
@@ -138,7 +138,7 @@
                   moduleName = "Prueba"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/gerardoxiloxochitl/Documents/GitHub/Prueba/Prueba/Prueba/Controllers/Home/QRScann/ScannQRVC.swift"
-                  timestampString = "585623868.404426"
+                  timestampString = "585624361.128854"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "49"
@@ -153,12 +153,12 @@
                   moduleName = "Prueba"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/gerardoxiloxochitl/Documents/GitHub/Prueba/Prueba/Prueba/Controllers/Home/QRScann/ScannQRVC.swift"
-                  timestampString = "585623868.405951"
+                  timestampString = "585624361.13065"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "49"
                   endingLineNumber = "49"
-                  offsetFromSymbolStart = "3752">
+                  offsetFromSymbolStart = "3764">
                </Location>
             </Locations>
          </BreakpointContent>

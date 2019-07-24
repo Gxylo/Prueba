@@ -297,7 +297,29 @@ class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
     }
 
+    @IBAction func closeSession(_ sender: Any) {
+        
+        let alertController:UIAlertController = UIAlertController(title: "Confirmación", message: "¿Deseas cerrar tu sesión?", preferredStyle: .alert)
+        
+        let cancelAction = UIAlertAction(title: "Cancelar", style: .cancel){ (action:UIAlertAction!) in
+        }
+        let closeSession = UIAlertAction(title: "Salir", style: .destructive) {(action) in
+            self.closeSession()
+        }
+        
+        alertController.addAction(cancelAction)
+        alertController.addAction(closeSession)
+        self.present(alertController, animated: true, completion: nil)
+
+    }
     
+    func closeSession() {
+        
+        self.user?.signOut()
+        self.response = nil
+        self.refresh()
+    }
+
     /*
     // MARK: - Navigation
 
